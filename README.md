@@ -4,11 +4,10 @@
 <h1>How to Run</h1>
 
 <h2>Running Java Code</h2>
-1. Run `./gradlew build` for Unix or `gradlew build` for Windows to fetch dependencies.<br>
-2. Run `./gradlew run` for Unix or `gradlew build` for Windows to start the server.<br>
+1. Run <code>./gradlew build</code> for Unix or <code>gradlew build</code> for Windows to fetch dependencies.<br>
+2. Run <code>./gradlew run</code> for Unix or <code>gradlew build</code> for Windows to start the server.<br>
 3. The server will run on localhost port 8090 by default.
 
-<h2> Running Go Code</h2>
-1. Run `go build` to get dependencies.<br>
-2. Run `go run main.go` to run the client. The client will call `getItemById` and `getItemsByName` and then it will exit the process.<br>
-3. The server will run on localhost port 8090 by default.<br>
+<h2>Running Go Code</h2>
+1. Run <code>go build</code> to get dependencies.<br>
+2. Run <code>go run main.go</code> to run the client. The client will call <code>getItemById</code> and <code>getItemsByName</code> and then it will exit the process.<br>
